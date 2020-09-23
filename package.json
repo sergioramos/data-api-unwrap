@@ -1,0 +1,81 @@
+{
+  "name": "data-api-unwrap",
+  "version": "1.0.0",
+  "description": "Unwrap AWS RDS Data API responses",
+  "license": "BSD-3-Clause",
+  "repository": "github:sergioramos/data-api-unwrap",
+  "author": "Sérgio Ramos <mail@sergioramos.me>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "data-api",
+    "rds",
+    "aws",
+    "parse",
+    "unserialize",
+    "sql"
+  ],
+  "scripts": {
+    "eslint": "eslint . --ext .js",
+    "fmt": "prettier --config package.json --write '**/*'",
+    "test": "NODE_ENV=test ava --timeout=5m"
+  },
+  "dependencies": {
+    "lodash.isundefined": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^3.12.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-xo-space": "^0.25.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "require-all": "^3.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --config package.json --write",
+      "git add"
+    ],
+    "*.*": [
+      "prettier --config package.json --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "xo-space/esnext",
+      "prettier"
+    ],
+    "rules": {
+      "new-cap": 0,
+      "camelcase": 0,
+      "capitalized-comments": 0
+    }
+  },
+  "ava": {
+    "files": [
+      "test/index.js"
+    ]
+  }
+}
