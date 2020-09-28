@@ -383,7 +383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:^3.12.1":
+"ava@npm:^3.13.0":
   version: 3.13.0
   resolution: "ava@npm:3.13.0"
   dependencies:
@@ -928,7 +928,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "data-api-unwrap@workspace:."
   dependencies:
-    ava: ^3.12.1
+    ava: ^3.13.0
     eslint: ^7.10.0
     eslint-config-prettier: ^6.12.0
     eslint-config-xo-space: ^0.25.0
