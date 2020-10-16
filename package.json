@@ -1,6 +1,6 @@
 {
   "name": "data-api-unwrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unwrap AWS RDS Data API responses",
   "license": "BSD-3-Clause",
   "repository": "github:sergioramos/data-api-unwrap",
