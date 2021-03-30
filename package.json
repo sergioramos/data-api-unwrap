@@ -26,18 +26,24 @@
     "lodash.isundefined": "^3.0.1"
   },
   "devDependencies": {
-    "ava": "^3.13.0",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-config-xo-space": "^0.25.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.2",
-    "prettier": "^2.2.0",
+    "@commitlint/cli": "^12.1.0",
+    "@commitlint/config-conventional": "^12.1.0",
+    "ava": "^3.15.0",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-xo-space": "^0.27.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
     "require-all": "^3.0.0"
+  },
+  "resolutions": {
+    "fsevents": "1.2.13"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -71,6 +77,16 @@
       "new-cap": 0,
       "camelcase": 0,
       "capitalized-comments": 0
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ]
     }
   },
   "ava": {
