@@ -1,3 +1,20 @@
+## [1.0.3](https://github.com/sergioramos/data-api-unwrap/compare/v1.0.2...v1.0.3) (2021-03-30)
+
+### Chores
+
+- upgrade dependencies ([ed22738](https://github.com/sergioramos/data-api-unwrap/commit/ed227387bc42558582cdabd7c527f2d02f1c79ec))
+- **deps:** bump actions/cache from v2.1.3 to v2.1.4 ([efd0e4b](https://github.com/sergioramos/data-api-unwrap/commit/efd0e4b9660338db3a59ecd858f84b82f7377d33))
+- **deps:** bump actions/setup-node from v2.1.2 to v2.1.5 ([2a180f2](https://github.com/sergioramos/data-api-unwrap/commit/2a180f298af5f3cee90cfb8b394bedf7130db307))
+- **deps:** bump ridedott/release-me-action from v3.2.12 to v3.5.11 ([0673b00](https://github.com/sergioramos/data-api-unwrap/commit/0673b0066ecd433f1c53999beafeb52c7383fe00))
+- **deps:** bump rlespinasse/github-slug-action from 3.1.0 to 3.4.0 ([55205ff](https://github.com/sergioramos/data-api-unwrap/commit/55205ffef9a0d00bcb35c120efc3472c822825ed))
+- **deps:** bump wagoid/commitlint-github-action from v2.1.2 to v3.0.6 ([aae3b5a](https://github.com/sergioramos/data-api-unwrap/commit/aae3b5a1f7c66c98c1c1bdb1e9a9aa4a4e72b672))
+- upgrade dependencies ([64d81df](https://github.com/sergioramos/data-api-unwrap/commit/64d81df38711dd84063e75138e0dd028a202c6f8))
+- **deps-dev:** bump actions/cache from v2.1.2 to v2.1.3 ([d521d08](https://github.com/sergioramos/data-api-unwrap/commit/d521d08b745ff80dbdaedee8eab6bd55119b1e4b))
+- **deps-dev:** bump ridedott/release-me-action from v3.2.3 to v3.2.12 ([962c594](https://github.com/sergioramos/data-api-unwrap/commit/962c594d75a848da2450ab74650f72ba89d25d82))
+- **deps-dev:** bump rlespinasse/github-slug-action from 2.1.1 to 3.1.0 ([bde0e64](https://github.com/sergioramos/data-api-unwrap/commit/bde0e64d1650f18abd481e8d31b9332100f2d960))
+- **deps-dev:** bump wagoid/commitlint-github-action from v2.0.2 to v2.1.2 ([af06363](https://github.com/sergioramos/data-api-unwrap/commit/af06363c2a2ea933334008d0dbcc7f845f567ae2))
+- **deps-dev:** upgrade yarn ([b236559](https://github.com/sergioramos/data-api-unwrap/commit/b23655956b9b0de413dccf8bd86a99ee22083df4))
+
 ## [1.0.2](https://github.com/sergioramos/data-api-unwrap/compare/v1.0.1...v1.0.2) (2020-10-16)
 
 ### Chores
