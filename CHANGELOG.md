@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/sergioramos/data-api-unwrap/compare/v1.0.3...v1.0.4) (2021-04-09)
+
+### Chores
+
+- upgrade dependencies ([fc61d16](https://github.com/sergioramos/data-api-unwrap/commit/fc61d16e39d1297d0ae199379c502bb14445ec51))
+- **deps:** bump ridedott/release-me-action from v3.5.11 to v3.5.16 ([fd310f9](https://github.com/sergioramos/data-api-unwrap/commit/fd310f940528a946a13f3cbc01c6a8b8cbd2d593))
+- **deps:** bump rlespinasse/github-slug-action from 3.4.0 to 3.5.1 ([62316f4](https://github.com/sergioramos/data-api-unwrap/commit/62316f48ad26ae1c7af4b89859e5dbfdf07d61b4))
+- **deps:** bump wagoid/commitlint-github-action from v3.0.6 to v3.1.0 ([60814f4](https://github.com/sergioramos/data-api-unwrap/commit/60814f4f0c7fd3c021435370e6f40b5549144fb9))
+
 ## [1.0.3](https://github.com/sergioramos/data-api-unwrap/compare/v1.0.2...v1.0.3) (2021-03-30)
 
 ### Chores
